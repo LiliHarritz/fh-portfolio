@@ -8,6 +8,31 @@
   </head>
   <body>
     <h1>hello</h1>
+
+    <form class=".contact_form" netlify name="Contact Form" action="succes">
+      <div class="contact_input-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+      </div>
+
+      <div class="contact_input-group">
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required />
+      </div>
+
+      <div class="contact_input-group">
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone" name="phone" required />
+      </div>
+
+      <div class="contact_input-group">
+        <label for="message">Message:</label>
+        <textarea name="message" id="message" required></textarea>
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+
     <script src="index.js"></script>
   </body>
 </html>

@@ -1,0 +1,15 @@
+.contact_form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: ;
+}
+
+.contact_form-message {
+}
+
+.textarea {
+  width: 100%;
+}
+
+.contact_input-group {
+}
