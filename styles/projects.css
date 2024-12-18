@@ -46,4 +46,9 @@
   gap: 20px; /* Tilføjer mellemrum mellem kolonner */
   padding: 35px 0;
   border-bottom: 2px solid black;
-  align-items: center; 
+  align-items: center; /* Centrerer indholdet vertikalt */
+}
+
+.space {
+  margin: 200px;
+}
