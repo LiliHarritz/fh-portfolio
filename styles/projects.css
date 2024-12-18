@@ -3,11 +3,19 @@
   flex-direction: row;
   position: relative;
   left: -2%;
+  top: -2rem;
+}
+
+.first-name {
+  position: relative;
+  top: 2rem;
+  left: -2.5rem;
 }
 
 .heart {
   position: relative;
-  margin-top: 8%;
+  margin-top: 11.5%;
+  left: -2rem;
 }
 
 .project1 {

@@ -21,24 +21,29 @@ body {
 
 /* H1 Styling */
 h1 {
-  font-size: 180px; /* Størrelse på 200px */
-  color: #ec783e; /* Orange farve */
-  font-family: "yesevaone", serif; /* Yeseva One font */
-  line-height: 1.1; /* Giver luft mellem linjerne */
+  font-size: 180px;
+  color: #ec783e;
+  font-family: "yesevaone", serif;
+  line-height: 1.1;
 }
 
 /* H2 Styling */
 h2 {
-  font-size: 40px; /* Størrelse på 40px */
-  font-family: "splinesanamono_semibold"; /* Spline Sans font */
-  font-weight: bold; /* Fed skrift */
-  color: #222; /* Standard farve */
+  font-size: 40px;
+  font-family: "splinesanamono_semibold";
+  font-weight: bold;
+  color: #222;
 }
 
 /* P Styling */
 p {
-  font-size: 18px; /* Størrelse på 18px */
-  font-family: "splinesanamono", sans-serif; /* Spline Sans font */
-  line-height: 1.1; /* Lidt højere line-height for læsbarhed */
-  color: #222; /* Standard tekstfarve */
+  font-size: 18px;
+  font-family: "splinesanamono", sans-serif;
+  line-height: 1.1;
+  color: #222;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
