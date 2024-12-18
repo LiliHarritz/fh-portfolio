@@ -60,3 +60,7 @@
 .space {
   margin: 200px;
 }
+
+.sub-project {
+  text-decoration: none;
+}
