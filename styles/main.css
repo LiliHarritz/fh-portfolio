@@ -1,0 +1,66 @@
+body {
+  background-color: #ebe6db;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+@font-face {
+  font-family: "splinesanamono";
+  src: url(/fonts/SplineSansMono-VariableFont_wght.ttf) format("woff2");
+}
+
+@font-face {
+  font-family: "splinesanamono_semibold";
+  src: url(/fonts/SplineSansMono-SemiBold.ttf) format("woff2");
+}
+
+@font-face {
+  font-family: "yesevaone";
+  src: url(/fonts/YesevaOne-Regular.ttf) format("woff2");
+}
+
+/* H1 Styling */
+h1 {
+  font-size: 180px;
+  color: #ec783e;
+  font-family: "yesevaone", serif;
+  line-height: 1.1;
+}
+
+/* H2 Styling */
+h2 {
+  font-size: 40px;
+  font-family: "splinesanamono_semibold";
+  font-weight: bold;
+  color: #222;
+}
+
+/* P Styling */
+p {
+  font-size: 18px;
+  font-family: "splinesanamono", sans-serif;
+  line-height: 1.1;
+  color: #222;
+}
+
+@media (max-width: 430px) {
+  .logo {
+    width: 25px;
+  }
+  h1 {
+    font-size: 85px;
+  }
+
+  .g_letter,
+  .l_letter,
+  .p_letter {
+    scale: 0.35;
+  }
+
+  .logo{
+  grid-column: 1 / span 1;
+  text-align: center;
+  position: relative;
+  left: -3rem;
+  scale: 0.8;
+}

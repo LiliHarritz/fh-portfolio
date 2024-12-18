@@ -1,0 +1,55 @@
+.heart-home {
+  position: relative;
+  /* right: -10rem; DOSENT WORK */
+  top: 5rem;
+}
+
+.project-section {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 40px;
+  margin-left: 140px;
+  margin-bottom: 4rem;
+}
+
+.project-grafik {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submobil {
+  position: absolute;
+  z-index: 1;
+  left: 44%;
+}
+
+.subwebsite {
+  position: relative;
+  left: 10%;
+}
+
+.project-laptop {
+  position: relative;
+  top: 10%;
+}
+
+.project-section2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 7rem;
+  margin-left: 140px;
+  margin-bottom: 3rem;
+}
+
+.poster-image {
+  position: relative;
+  top: 3rem;
+}
+
+.album-image {
+  scale: 0.9;
+  position: relative;
+  top: -0.7rem;
+  left: 4rem;
+}

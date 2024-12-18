@@ -1,0 +1,113 @@
+header nav {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  align-items: center;
+  margin-top: 20px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  gap: 20px;
+  border-bottom: 2px solid black; /* Sort linje øverst i footeren */
+  position: relative;
+}
+
+header .logo {
+  grid-column: 1 / span 1;
+  text-align: center;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  grid-column: 8 / span 5;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  font-size: 22px;
+  font-family: splinesanamono_semibold;
+}
+
+header nav ul li a:hover {
+  color: #f68b47;
+}
+
+/* Burger menu */
+.burger-menu {
+  display: none; /* Skjult som standard */
+  cursor: pointer;
+  position: relative;
+  left: 14rem;
+}
+
+.burger-menu div {
+  width: 25px;
+  height: 3px;
+  margin: 5px;
+  background-color: black;
+  transition: all 0.3s; /* Gør animation glidende */
+}
+
+/* Navigation vises */
+.nav-links.nav-active {
+  display: flex;
+}
+
+/* Animation til burger menu (kryds) */
+.burger-menu .line1.toggle {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.burger-menu .line2.toggle {
+  opacity: 0; /* Skjuler midterste linje */
+}
+
+.burger-menu .line3.toggle {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
+/* Mobilvisning */
+@media (max-width: 810px) {
+  .burger-menu {
+    display: block; /* Burger menu vises på små skærme */
+  }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    right: 179px;
+    /* margin-top: 11rem; */
+    top: -19px;
+    padding: 2rem;
+    height: 100vh;
+    gap: 2rem;
+    background-color: #ebe6db;
+    width: 140%;
+    flex-direction: column;
+    align-items: center;
+    z-index: 10;
+    justify-content: flex-start;
+    border-style: outset;
+  }
+
+  .nav-links.nav-active {
+    display: flex; /* Viser navigationen */
+  }
+
+  /* Kryds-animation */
+  .burger-menu.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+
+  .burger-menu.toggle .line2 {
+    opacity: 0; /* Skjuler midterste linje */
+  }
+
+  .burger-menu.toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+}
