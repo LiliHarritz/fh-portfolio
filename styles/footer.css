@@ -1,0 +1,43 @@
+footer {
+  border-top: 2px solid black;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.footer-content {
+  width: 90%;
+  max-width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 1rem;
+}
+
+.footer-info {
+  display: flex;
+  gap: 3rem;
+}
+
+/* Sociale media icons  */
+.footer-icons {
+  display: flex;
+  gap: 1rem;
+  position: relative;
+  left: 6rem;
+}
+
+.social-icons img {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+  width: 30px;
+  transition: transform 0.3s ease;
+}
+
+.social-icon img:hover {
+  transform: scale(1.1); /* Zoom-effekt ved hover */
+}

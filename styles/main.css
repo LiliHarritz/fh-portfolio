@@ -1,0 +1,44 @@
+body {
+  background-color: #ebe6db;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+@font-face {
+  font-family: "splinesanamono";
+  src: url(/fonts/SplineSansMono-VariableFont_wght.ttf) format("woff2");
+}
+
+@font-face {
+  font-family: "splinesanamono_semibold";
+  src: url(/fonts/SplineSansMono-SemiBold.ttf) format("woff2");
+}
+
+@font-face {
+  font-family: "yesevaone";
+  src: url(/fonts/YesevaOne-Regular.ttf) format("woff2");
+}
+
+/* H1 Styling */
+h1 {
+  font-size: 180px; /* Størrelse på 200px */
+  color: #ec783e; /* Orange farve */
+  font-family: "yesevaone", serif; /* Yeseva One font */
+  line-height: 1.1; /* Giver luft mellem linjerne */
+}
+
+/* H2 Styling */
+h2 {
+  font-size: 40px; /* Størrelse på 40px */
+  font-family: "splinesanamono_semibold"; /* Spline Sans font */
+  font-weight: bold; /* Fed skrift */
+  color: #222; /* Standard farve */
+}
+
+/* P Styling */
+p {
+  font-size: 18px; /* Størrelse på 18px */
+  font-family: "splinesanamono", sans-serif; /* Spline Sans font */
+  line-height: 1.1; /* Lidt højere line-height for læsbarhed */
+  color: #222; /* Standard tekstfarve */
+}

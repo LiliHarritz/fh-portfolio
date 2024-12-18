@@ -1,0 +1,49 @@
+.h1project-container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: -2%;
+}
+
+.heart {
+  position: relative;
+  margin-top: 8%;
+}
+
+.project1 {
+  display: grid; /* Aktiver CSS Grid */
+  grid-template-columns: 2fr 2fr 1fr; /* 3 kolonner med fleksibel bredde */
+  gap: 20px; /* Tilføjer mellemrum mellem kolonner */
+  padding: 50px 0;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  align-items: center; /* Centrerer indholdet vertikalt */
+  text-decoration-style: none;
+}
+
+.project-title {
+  margin-left: 27%;
+}
+
+.project_p {
+  margin-left: 10%;
+}
+
+.project-text {
+  justify-self: center;
+  width: 25rem;
+}
+
+.project-number {
+  justify-self: end; /* Skubber indholdet mod højre */
+  text-align: right;
+  padding-right: 20px; /* Ekstra mellemrum til højre */
+}
+
+.project {
+  display: grid; /* Aktiver CSS Grid */
+  grid-template-columns: 2fr 2fr 1fr; /* 3 kolonner med fleksibel bredde */
+  gap: 20px; /* Tilføjer mellemrum mellem kolonner */
+  padding: 35px 0;
+  border-bottom: 2px solid black;
+  align-items: center; 

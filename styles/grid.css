@@ -1,0 +1,45 @@
+.container {
+  position: relative; /* Gør det muligt at placere overlay */
+  margin: 0 auto; /* Centrerer indholdet */
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+/* Grid overlay */
+.grid-overlay {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr); /* 12 kolonner */
+  gap: 20px; /* Mellemrum mellem kolonner */
+  position: absolute; /* Placér overlay ovenpå */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none; /* Gør det ikke-interaktivt */
+}
+
+/* .grid-overlay div {
+  background-color: rgba(
+    255,
+    0,
+    0,
+    0.1
+  ); /* Lys rød for at visualisere kolonner */
+} */
+
+/* Content styles */
+section {
+  grid-column: span 12; /* Indhold strækker sig over alle kolonner */
+  z-index: 1; /* Sørg for, at indhold ligger over overlay */
+}
+
+.vertical-line {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  grid-column: 2; /* Linjen i kolonne 6 */
+  left: -20px;
+  width: 2px;
+  background-color: black;
+  z-index: -1;
+}
