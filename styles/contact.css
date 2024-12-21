@@ -78,7 +78,7 @@
   background-color: #ededed;
   border-radius: 4px;
   width: 100%;
-  box-sizing: border-box; /* Sørger for at padding ikke ændrer bredden */
+  box-sizing: border-box;
   transition: border-color 0.3s ease-in-out;
 }
 
@@ -89,19 +89,19 @@
 }
 
 .submit-button {
-  background-color: #e27d4f; /* Orange farve */
-  color: #fff; /* Hvid tekst */
+  background-color: #e27d4f;
+  color: #fff;
   font-size: 1rem;
   font-family: splinesanamono_semibold;
   font-weight: bold;
   width: 10rem;
   border: none;
-  border-radius: 50px; /* Gør knappen oval */
-  padding: 0.75rem 1.5rem; /* Indvendig afstand */
+  border-radius: 50px;
+  padding: 0.75rem 1.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0.5rem; /* Afstand mellem tekst og pil */
+  gap: 0.5rem;
   cursor: pointer;
   transition: background-color 0.3s ease;
   text-transform: uppercase;
@@ -111,16 +111,16 @@
 .arrow {
   position: relative;
   display: inline-block;
-  width: 8px; /* Størrelse på pil */
+  width: 8px;
   height: 8px;
-  border-top: 2px solid #fff; /* Øvre del af pilen */
-  border-right: 2px solid #fff; /* Højre del af pilen */
-  transform: rotate(45deg); /* Drejer pilen */
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  transform: rotate(45deg);
   margin-left: 0.25rem;
 }
 
 .submit-button:hover {
-  background-color: #d16b3f; /* Mørkere orange ved hover */
+  background-color: #d16b3f;
 }
 
 @media (max-width: 430px) {
@@ -143,5 +143,43 @@
     position: relative;
     left: -4.5rem;
     scale: 0.8;
+  }
+
+  .g_letter {
+    left: -4rem;
+  }
+
+  .h1getin {
+    position: relative;
+    top: -1rem;
+    left: -7.5rem;
+  }
+
+  .touch-container {
+    top: -12rem;
+  }
+
+  .heart-contact {
+    top: 1.3rem;
+    right: 2rem;
+  }
+
+  .profil_logo {
+    top: -16rem;
+  }
+
+  .img_logo {
+    right: -25.5rem;
+    top: -3rem;
+  }
+
+  .contact-form-mobile {
+    position: relative;
+    top: -30rem;
+    right: -2rem;
+  }
+
+  .contact_form {
+    max-width: 19rem;
   }
 }

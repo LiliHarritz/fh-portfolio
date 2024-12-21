@@ -39,5 +39,30 @@ footer {
 }
 
 .social-icon img:hover {
-  transform: scale(1.1); /* Zoom-effekt ved hover */
+  transform: scale(1.1);
+}
+
+@media (max-width: 430px) {
+  .footer {
+    right: -1rem;
+  }
+
+  .footer-info {
+    flex-direction: column;
+    position: relative;
+    top: -14rem;
+    gap: 0rem;
+  }
+
+  .footer-icons {
+    flex-direction: column;
+    gap: 0.5rem;
+    left: -12.3rem;
+    top: -22rem;
+  }
+
+  .social-icons img {
+    width: 16px; /* DOES NOT WORK */
+    height: auto;
+  }
 }

@@ -47,8 +47,17 @@ p {
   .logo {
     width: 25px;
   }
+
   h1 {
-    font-size: 85px;
+    font-size: 75px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  p {
+    font-size: 16px;
   }
 
   .g_letter,
@@ -57,10 +66,15 @@ p {
     scale: 0.35;
   }
 
-  .logo{
-  grid-column: 1 / span 1;
-  text-align: center;
-  position: relative;
-  left: -3rem;
-  scale: 0.8;
+  .logo {
+    grid-column: 1 / span 1;
+    text-align: center;
+    position: relative;
+    left: -3rem;
+    scale: 0.8;
+  }
+
+  .header nav {
+    /* /* margin-left: -1rem; DOSENT WORK/* */
+  }
 }
